@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Soheil Douzandeh</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="../index.html">Soheil<span>D</span></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="../assets/img/ai.jpeg" alt="AI Image Recognition">
+                        </div>
+                        <div class="project-content">
+                            <h3>AI Image Recognition System</h3>
+                            <p>A deep learning model that can identify objects in images with high accuracy.</p>
+                            <div class="tech-stack">
+                                <span>Python</span>
+                                <span>TensorFlow</span>
+                                <span>OpenCV</span>
+                                <span>Flask</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="view-project" data-project="project1"><i class="fas fa-eye"></i> View Details</a>
+                               <!--  <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="../assets/img/samrthome.jpeg" alt="Smart Home System">
+                        </div>
+                        <div class="project-content">
+                            <h3>Smart Home Automation</h3>
+                            <p>An IoT-based system that allows users to control home appliances remotely.</p>
+                            <div class="tech-stack">
+                                <span>C++</span>
+                                <span>Arduino</span>
+                                <span>JavaScript</span>
+                                <span>Firebase</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="view-project" data-project="project2"><i class="fas fa-eye"></i> View Details</a>
+                               <!-- <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="../assets/img/data.png" alt="Data Visualization">
+                        </div>
+                        <div class="project-content">
+                            <h3>Data Visualization Dashboard</h3>
+                            <p>Interactive web-based dashboard for visualizing complex datasets.</p>
+                            <div class="tech-stack">
+                                <span>JavaScript</span>
+                                <span>D3.js</span>
+                                <span>HTML/CSS</span>
+                                <span>Python</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="view-project" data-project="project3"><i class="fas fa-eye"></i> View Details</a>
+                               <!-- <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="../assets/img/auto.png" alt="Robotics Project">
+                        </div>
+                        <div class="project-content">
+                            <h3>Autonomous Navigation Robot</h3>
+                            <p>A robot capable of navigating complex environments using SLAM algorithms.</p>
+                            <div class="tech-stack">
+                                <span>ROS</span>
+                                <span>C++</span>
+                                <span>Python</span>
+                                <span>Computer Vision</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="view-project" data-project="project4"><i class="fas fa-eye"></i> View Details</a>
+                                <!-- <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 Soheil Douzandeh. All Rights Reserved.</p>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </footer>
+    
+        <!-- Back to Top Button -->
+        <a href="#" class="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+
+        <!-- Project Modals -->
+        <!-- Project 1 Modal -->
+        <div id="project1Modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>AI Image Recognition System</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-gallery">
+                        <img src="../assets/img/ai.jpeg" alt="Project Screenshot 1">
+                        <img src="../assets/img/ai.jpeg" alt="Project Screenshot 2">
+                        <img src="../assets/img/ai.jpeg" alt="Project Screenshot 3">
+                    </div>
+                    <div class="project-details">
+                        <h3>Project Overview</h3>
+                        <p>This project implements a state-of-the-art deep learning model for image recognition that can identify and classify objects in images with high accuracy. The system utilizes convolutional neural networks (CNNs) to extract features from images and identify objects.</p>
+                        
+                        <h3>Technologies Used</h3>
+                        <p>Python, TensorFlow, OpenCV, Flask, HTML/CSS, JavaScript</p>
+                        
+                        <h3>Challenges Faced</h3>
+                        <p>One of the main challenges was optimizing the model for real-time inference while maintaining high accuracy. I addressed this by implementing model quantization and using transfer learning techniques with pre-trained models.</p>
+                        
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Real-time object detection and classification</li>
+                            <li>Web interface for uploading and analyzing images</li>
+                            <li>Support for multiple image formats and sources</li>
+                            <li>RESTful API for integration with other applications</li>
+                        </ul>
+                        
+                        <h3>Outcomes</h3>
+                        <p>The final system achieves over 95% accuracy on standard benchmark datasets and can process images in real-time on consumer hardware. The project was presented at the university's annual tech showcase and received recognition for its practical applications.</p>
+                        
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank" class="btn"><i class="fab fa-github"></i> GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 Modal -->
+        <div id="project2Modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Smart Home Automation</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-gallery">
+                        <img src="../assets/img/samrthome.jpeg" alt="Project Screenshot 1">
+                        <img src="../assets/img/samrthome.jpeg" alt="Project Screenshot 2">
+                        <img src="../assets/img/samrthome.jpeg" alt="Project Screenshot 3">
+                    </div>
+                    <div class="project-details">
+                        <h3>Project Overview</h3>
+                        <p>This IoT-based smart home system allows users to control various home appliances remotely through a mobile application. The system includes custom-built hardware modules that communicate with a central server to provide real-time control and monitoring of devices.</p>
+                        
+                        <h3>Technologies Used</h3>
+                        <p>C++, Arduino, ESP8266, JavaScript, Firebase, HTML/CSS, Mobile App Development</p>
+                        
+                        <h3>Challenges Faced</h3>
+                        <p>Ensuring reliable communication between the hardware modules and the server was a significant challenge, especially in environments with poor connectivity. I implemented a robust error handling and retry mechanism to address this issue.</p>
+                        
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Remote control of lights, fans, and other appliances</li>
+                            <li>Automated scheduling based on time or environmental conditions</li>
+                            <li>Energy consumption monitoring and analytics</li>
+                            <li>Voice control integration with popular digital assistants</li>
+                        </ul>
+                        
+                        <h3>Outcomes</h3>
+                        <p>The system has been successfully deployed in several residential settings, resulting in approximately 15-20% energy savings. The project also won second place in the university's Innovation Challenge competition.</p>
+                        
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank" class="btn"><i class="fab fa-github"></i> GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3 Modal -->
+        <div id="project3Modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Data Visualization Dashboard</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-gallery">
+                        <img src="../assets/img/data.png" alt="Project Screenshot 1">
+                        <img src="../assets/img/data.png" alt="Project Screenshot 2">
+                        <img src="../assets/img/data.png" alt="Project Screenshot 3">
+                    </div>
+                    <div class="project-details">
+                        <h3>Project Overview</h3>
+                        <p>This interactive web-based dashboard provides intuitive visualizations for complex datasets, allowing users to explore and analyze data through various charts, graphs, and filters. The system is designed to handle large datasets efficiently and provide meaningful insights.</p>
+                        
+                        <h3>Technologies Used</h3>
+                        <p>JavaScript, D3.js, HTML/CSS, Python, Flask, PostgreSQL</p>
+                        
+                        <h3>Challenges Faced</h3>
+                        <p>Optimizing the performance of the dashboard when handling large datasets was challenging. I implemented data aggregation techniques and lazy loading of visualizations to ensure smooth user experience even with millions of data points.</p>
+                        
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Interactive charts and graphs (bar charts, line graphs, scatter plots, etc.)</li>
+                            <li>Real-time data filtering and searching</li>
+                            <li>Custom visualization creation</li>
+                            <li>Export functionality for reports and visualizations</li>
+                        </ul>
+                        
+                        <h3>Outcomes</h3>
+                        <p>The dashboard has been adopted by the university's research department for analyzing student performance data, leading to improved decision-making and resource allocation. The project received recognition in a regional data science competition.</p>
+                        
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank" class="btn"><i class="fab fa-github"></i> GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 4 Modal -->
+        <div id="project4Modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Autonomous Navigation Robot</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-gallery">
+                        <img src="../assets/img/auto.png" alt="Project Screenshot 1">
+                        <img src="../assets/img/auto.png" alt="Project Screenshot 2">
+                        <img src="../assets/img/auto.png" alt="Project Screenshot 3">
+                    </div>
+                    <div class="project-details">
+                        <h3>Project Overview</h3>
+                        <p>This project involves developing an autonomous robot capable of navigating complex environments using Simultaneous Localization and Mapping (SLAM) algorithms. The robot can create maps of unknown environments and navigate through them efficiently while avoiding obstacles.</p>
+                        
+                        <h3>Technologies Used</h3>
+                        <p>ROS (Robot Operating System), C++, Python, LIDAR, Computer Vision, Raspberry Pi</p>
+                        
+                        <h3>Challenges Faced</h3>
+                        <p>Implementing reliable obstacle avoidance in dynamic environments was a significant challenge. I developed a hybrid approach combining LIDAR-based detection with computer vision to achieve robust performance in various conditions.</p>
+                        
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Real-time mapping and localization</li>
+                            <li>Path planning and obstacle avoidance</li>
+                            <li>Computer vision for object recognition</li>
+                            <li>Remote monitoring and control interface</li>
+                        </ul>
+                        
+                        <h3>Outcomes</h3>
+                        <p>The robot successfully navigated through complex indoor environments with 90% accuracy in path following. The project was presented at a robotics workshop and served as a platform for further research in autonomous navigation.</p>
+                        
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn"><i class="fas fa-external-link-alt"></i> Video Demo</a>
+                            <a href="#" target="_blank" class="btn"><i class="fab fa-github"></i> GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- JavaScript -->
+        <script src="../assets/js/main.js"></script>
+    </body>
+    </html>
