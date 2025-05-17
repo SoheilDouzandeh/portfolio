@@ -43,6 +43,4 @@ portfolio-website
 - JavaScript
 
 ## Author
-[Soheil Douzandeh]  
-[Your Contact Information]  
-[Your LinkedIn Profile or Website]  
+Soheil Douzandeh      
