@@ -43,8 +43,6 @@ portfolio-website
 - JavaScript
 
 ## Author
-[Your Name]  
+[Soheil Douzandeh]  
 [Your Contact Information]  
 [Your LinkedIn Profile or Website]  
-
-Feel free to customize the content as needed!
